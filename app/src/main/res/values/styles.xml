@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ImageStyle_Circle">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily"> rounded</item >
+    </style>
+
+    <style name="ImageStyle_Corners_Rounded">
+        <item name="cornerSize">20dp</item>
+        <item name="cornerFamily"> rounded</item >
+    </style>
+
+    <style name="ImageStyle_Corners_Cut">
+        <item name="cornerSize">20dp</item>
+        <item name="cornerFamily"> rounded</item >
+    </style>
+
+    <style name="ImageStyle_Corners_Square">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily"> cut</item >
+    </style>
+
+    <style name="ImageStyle_Corners_Rounded_Top_Right">
+        <item name="cornerSizeTopRight">60%</item>
+        <item name="cornerFamily"> rounded</item >
+    </style>
+
+    <style name="ImageStyle_Corners_Rounded_Top_Right_Bottom_Left">
+        <item name="cornerSizeTopRight">60%</item>
+        <item name="cornerSizeBottomLeft">60%</item>
+        <item name="cornerFamily"> rounded</item >
+    </style>
+
+    <style name="ImageStyle_Cut_Rounded_Top_Right_Bottom_Left">
+        <item name="cornerSizeTopRight">50%</item>
+        <item name="cornerSizeBottomLeft">50%</item>
+        <item name="cornerFamily"> cut</item >
+    </style>
+</resources>
